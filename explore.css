@@ -1,0 +1,1097 @@
+:root {
+    --primary: hsla(0, 0%, 100%, 0.65);
+    --secondary: hsla(0, 0%, 100%, 0.99);
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 660px;
+    background: white;
+ 
+}
+
+.container2 {
+    width: 100%;
+    height: 35%;
+    background: url("greenbackground.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container3 {
+    width: 100%;
+    height: 65%;
+    background:
+    linear-gradient(180deg, var(--primary), var(--secondary)),
+    url("whitenature.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.blackmap {
+    background: url("blackmap.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 60%;
+    height: 50%;
+    margin-top: 50px;
+    margin-left: 30px;
+    border: solid 5px rgba(151, 238, 11, 0.795);
+}
+
+
+#snowmarker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#snowmarker1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: rgb(151, 238, 11);
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 200px;
+    margin-top: 115px;
+}
+
+
+#snowmarker2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgb(151, 238, 11);
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 220px;
+    margin-top: 120px;
+}
+
+
+#snowmarker3 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgb(151, 238, 11);
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 230px;
+    margin-top: 100px;
+}
+
+#snowmarker4 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: rgb(151, 238, 11);
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 210px;
+    margin-top: 90px;
+}
+
+#snowmarker5 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgb(151, 238, 11);
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 190px;
+    margin-top: 85px;
+}
+
+#snowmarker6 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgb(151, 238, 11);
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 190px;
+    margin-top: 107px;
+}
+
+#tigermarker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#tigermarker1 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: orange;
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 243px;
+    margin-top: 150px;
+}
+
+
+#tigermarker2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: orange;
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 215px;
+    margin-top: 140px;
+}
+
+
+#tigermarker3 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: orange;
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 200px;
+    margin-top: 160px;
+}
+
+#tigermarker4 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: orange;
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 200px;
+    margin-top: 190px;
+}
+
+#tigermarker5 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: orange;
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 192px;
+    margin-top: 205px;
+}
+
+#tigermarker6 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: orange;
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 185px;
+    margin-top: 170px;
+}
+
+#tigermarker7 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: orange;
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 115px;
+    margin-top: 92px;
+}
+
+#pandamarker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#pandamarker1 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: red;
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 200px;
+    margin-top: 140px;
+}
+
+
+#pandamarker2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: red;
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 195px;
+    margin-top: 130px;
+}
+
+
+#pandamarker3 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: red;
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 188px;
+    margin-top: 124px;
+}
+
+
+#orangutanmarker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#orangutanmarker1 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background:rgb(109, 48, 30);
+    opacity: 0.9;
+    border-radius: 50%;
+    right: 164px;
+    margin-top: 197px;
+}
+
+
+#orangutanmarker2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgb(109, 48, 30);
+    opacity: 0.9;
+    border-radius: 50%;
+    right: 207px;
+    margin-top: 193px;
+}
+
+
+
+
+
+
+
+#lemurmarker {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgb(9, 195, 228);
+    opacity: 0.7;
+    border-radius: 50%;
+    right: 310px;
+    margin-top: 235px;
+}
+
+#jaguarmarker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#jaguarmarker1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 238px;
+    margin-top: 180px;
+}
+
+
+#jaguarmarker2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 225px;
+    margin-top: 200px;
+}
+
+
+#jaguarmarker3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 275px;
+    margin-top: 200px;
+}
+
+#jaguarmarker4 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 255px;
+    margin-top: 230px;
+}
+
+#jaguarmarker5 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 280px;
+    margin-top: 255px;
+}
+
+#jaguarmarker6 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 295px;
+    margin-top: 240px;
+}
+
+#jaguarmarker7 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 250px;
+    margin-top: 245px;
+}
+
+#jaguarmarker8 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 225px;
+    margin-top: 180px;
+}
+
+#jaguarmarker9 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 205px;
+    margin-top: 180px;
+}
+
+#jaguarmarker10 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 203px;
+    margin-top: 170px;
+}
+
+#jaguarmarker11 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 195px;
+    margin-top: 160px;
+}
+
+#jaguarmarker12 {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 180px;
+    margin-top: 170px;
+}
+
+#jaguarmarker13 {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 176px;
+    margin-top: 169px;
+}
+
+#jaguarmarker14 {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 172px;
+    margin-top: 166px;
+}
+
+#jaguarmarker15 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 164px;
+    margin-top: 160px;
+}
+
+#jaguarmarker16 {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 163px;
+    margin-top: 155px;
+}
+
+#jaguarmarker17 {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: yellow;
+    opacity: 0.5;
+    border-radius: 50%;
+    left: 160px;
+    margin-top: 145px;
+}
+
+
+
+.blackbar {
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    background: black;
+}
+
+.whitebox {
+    height: 400px;
+    width: 280px;
+    position: absolute;
+    right: 0px;
+    background: white;
+    opacity: 0.5;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+.speciesbar {
+    height: 400px;
+    width: 70px;
+    position: absolute;
+    background: white;
+    opacity: 0.7;
+    right: 0px;
+    margin-top: 20px;
+    border-top-left-radius: 5px;
+}
+
+.imagebox {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.imagebox img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 7px;
+    
+  
+    
+}
+
+
+.imagebox2 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.imagebox2 img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 7px;
+}
+
+
+.imagebox3 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.imagebox3 img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 7px;
+}
+
+
+.imagebox4 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.imagebox4 img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 7px;
+}
+
+
+.imagebox5 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.imagebox5 img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 7px;
+}
+
+
+.imagebox6 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.imagebox6 img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 7px;
+}
+
+
+
+.iconbar {
+    height: 400px;
+    width: 70px;
+    position: absolute;
+    background: white;
+    opacity: 0.7;
+    right: 0px;
+    margin-top: 20px;
+    border-top-left-radius: 5px;
+}
+
+.iconbar {
+    color: rgb(132, 187, 42);
+}
+
+.iconbar i {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.micon {
+    height: 70px;
+    width: 70px;
+    border-bottom: solid 2px rgb(151, 238, 11);
+    cursor: pointer;
+}
+
+.micon:hover {
+    opacity: 0.4;
+    color: rgb(77, 112, 21);
+}
+
+
+
+.bicon {
+    height: 70px;
+    width: 70px;
+    border-bottom: solid 2px rgb(151, 238, 11);
+    cursor: pointer;
+}
+
+.bicon:hover {
+    opacity: 0.4;
+    color: rgb(77, 112, 21);
+}
+
+.aicon {
+    height: 70px;
+    width: 70px;
+    border-bottom: solid 2px rgb(151, 238, 11);
+    cursor: pointer;
+}
+
+.aicon:hover {
+    opacity: 0.4;
+    color: rgb(77, 112, 21);
+}
+
+.ricon {
+    height: 70px;
+    width: 70px;
+    border-bottom: solid 2px rgb(151, 238, 11);
+    cursor: pointer;
+}
+
+.ricon:hover {
+    opacity: 0.4;
+    color: rgb(77, 112, 21);
+}
+
+
+.ficon {
+    height: 70px;
+    width: 70px;
+    border-bottom: solid 2px rgb(151, 238, 11);
+    cursor: pointer;
+}
+
+.ficon:hover {
+    opacity: 0.4;
+    color: rgb(77, 112, 21);
+}
+
+
+
+.a1 {
+    width: 250px;
+    height: 50px;
+    background: white;
+    opacity: 0.9;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.a1 h3 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 80px;
+    font-style: italic;
+ 
+}
+
+
+.a1:hover {
+    opacity: 0.3;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+    z-index: 100;
+    overflow: hidden;
+    box-shadow: 10px 10px 25px 0px black;
+}
+
+.a2 {
+    width: 250px;
+    height: 50px;
+    background: white;
+    opacity: 0.9;
+    margin-left: 15px;
+    margin-top: 75px;
+    border-radius: 7px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.a2 h3 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 80px;
+    font-style: italic;
+ 
+}
+
+
+.a3 {
+    width: 250px;
+    height: 50px;
+    background: white;
+    opacity: 0.9;
+    margin-left: 15px;
+    margin-top: 135px;
+    border-radius: 7px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.a3 h3 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 80px;
+    font-style: italic;
+ 
+}
+
+
+.a4 {
+    width: 250px;
+    height: 50px;
+    background: white;
+    opacity: 0.9;
+    margin-left: 15px;
+    margin-top: 195px;
+    border-radius: 7px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.a4 h3 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 80px;
+    font-style: italic;
+ 
+}
+
+
+.a5 {
+    width: 250px;
+    height: 50px;
+    background: white;
+    opacity: 0.9;
+    margin-left: 15px;
+    margin-top: 255px;
+    border-radius: 7px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.a5 h3 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 80px;
+    font-style: italic;
+ 
+}
+
+
+.a6 {
+    width: 250px;
+    height: 50px;
+    background: white;
+    opacity: 0.9;
+    margin-left: 15px;
+    margin-top: 315px;
+    border-radius: 7px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.a6 h3 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 80px;
+    font-style: italic;
+ 
+}
+
+.acontainer {
+    position: absolute;
+    right: 70px;
+    width: 280px;
+    height: 400px;
+    margin-top: 20px;
+   
+    
+}
+
+.greenbar {
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    background: rgb(151, 238, 11);
+}
+
+.login {
+    background: rgb(151, 238, 11);
+    width: 100%;
+    height: 4%;
+    opacity: 0.6;
+    position: fixed;
+}
+
+.loginbar ul {
+    position: fixed;
+    color: white;
+    top: 0px;
+    margin-top: 5px;
+    padding-top: 0px;
+    margin-right: 25px;
+    list-style: none;
+    right: 0px;
+}
+
+.loginbar ul a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.menubar {
+    position: fixed;
+    text-align: center;
+    display: inline-flex;
+    margin-top: 2%;
+    margin-left: 5%;
+    z-index: 10;
+    
+}
+
+.menubar img {
+    position: fixed;
+    margin-top: -8px;
+    left: 0px;
+   
+}
+
+.menubar ul li a::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(151, 238, 11);
+    height: 3px;
+    width: 0px;
+    margin-left: -50px;
+    bottom: 22px;
+    transition: 0.3s;
+   
+}
+
+.menubar ul li a:hover::after{
+    width: 60px;
+
+}
+
+.menubar h1 {
+    color: white;
+}
+
+
+.menubar ul {
+    display: inline-flex;
+    color: white;
+    list-style: none; 
+    margin-left: 94%;
+}
+
+.menubar ul li {
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.sub-menutext {
+    display: none;
+}
+
+.menubar ul li:hover .sub-menutext {
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: -40px;
+   
+}
+.sub-menutext ul li a:hover {
+    color: rgb(151, 238, 11);
+}
+
+
+.menubar ul li:hover .sub-menutext ul {
+    display: block;
+    position: absolute;
+    z-index: 35;
+    margin-top: 20px;
+}
+
+.menubar ul li:hover .sub-menutext ul li {
+    
+    background: transparent;
+    width: 80px;
+    border-bottom: solid white 1px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: -15px;
+    margin-top: 10px;
+    z-index: 35;
+   
+}
+
+.menubar i {
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+
+.sub-menu1 {
+    display: none;
+    z-index: 1;
+}
+
+
+.sub-menu {
+    position: absolute;
+    display: none;
+    z-index: 30;
+    width: 150px;
+    height: 200px;
+    background: black;
+}
+
+.menubar ul li:hover .sub-menu {
+   
+    position: absolute;
+    background: black;
+    opacity: 0.5;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: -50px;
+}
+
+.menubar ul li:hover .sub-menu {
+    display: block;
+    z-index: 1;
+}
+.sub-menutext1 {
+    display: none;
+}
+
+.menubar ul li:hover .sub-menutext1 {
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: -10px;
+   
+}
+
+.menubar ul li:hover .sub-menutext1 ul {
+    display: block;
+    position: absolute;
+    z-index: 35;
+    margin-top: 20px;
+}
+
+.menubar ul li:hover .sub-menutext1 ul li {
+    
+    background: transparent;
+    width: 130px;
+    border-bottom: solid white 1px;
+    text-align: center;
+    margin-left: -60px;
+    z-index: 35;
+    margin-top: 8px;
+    padding-bottom: 5px;
+   
+}
+
+.menubar ul li:hover .sub-menutext ul li:last-child {
+    border-bottom: none;
+}
+
+.sub-menu1 {
+    display: none;
+    z-index: 1;
+}
+
+
+.sub-menu1 {
+    position: absolute;
+    display: none;
+    z-index: 30;
+    width: 200px;
+    height: 230px;
+    background: black;
+}
+
+.menubar ul li:hover .sub-menu1 {
+   
+    position: absolute;
+    background: black;
+    opacity: 0.5;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: -63px;
+}
+
+.menubar ul li:hover .sub-menu1 {
+    display: block;
+    z-index: 1;
+}
+
+.menubar ul li:hover .sub-menutext1 ul li:last-child {
+    border-bottom: none;
+}
+
+.sub-menutext1 ul li a:hover {
+    color: rgb(151, 238, 11);
+}
+
+.sub-menutext ul li a::after {
+    background:none;
+}
+
+
+.sub-menutext1 ul li a::after {
+    background:none;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="explore.css">
+    <script src="https://kit.fontawesome.com/b28e221fb3.js" crossorigin="anonymous"></script>
+    <script src="alphadyr.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="container2">
+            <div class="loginbar">
+                <div class="login"></div>
+                <ul><li><a href="#">Login</a></li></ul>   
+            </div>
+
+            <div class="menubar">
+                <img src="/portfolio/alogo.png" width="80" height="105">
+                <h1>Alfadyr</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Species</a><i class="fas fa-chevron-down"></i>
+                        <div class="sub-menu">
+                        </div>
+                        <div class="sub-menutext">
+                            <ul>
+                                <li><a href="animals.html">Mammals</a></li>
+                                <li><a href="reptiles.html">Reptiles</a></li>
+                                <li><a href="birds.html">Birds</a></li>
+                                <li><a href="amphibians.html">Amphibians</a></li>
+                                <li><a href="fish.html">Fish</a></li>  
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Support</a><i class="fas fa-chevron-down"></i></li>
+                    <li><a href="#">Explore</a><i class="fas fa-chevron-down"></i>
+                        <div class="sub-menu1">
+                        </div>
+                        <div class="sub-menutext1">
+                            <ul>
+                                <li><a href="#">Africa</a></li>
+                                <li><a href="#">Antartica</a></li>
+                                <li><a href="#">Asia</a></li>
+                                <li><a href="#">Australia</a></li>
+                                <li><a href="#">Europe</a></li>  
+                                <li><a href="#">North America</a></li>
+                                <li><a href="#">South America</a></li>  
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href="#">Donate</a></li>
+                </ul>
+            </div>    
+        </div>
+
+        <div class="container3">
+           
+            <div class="overlay"></div>
+
+        </div>
+
+        <div class="blackmap">
+
+                <div id="snowmarker" style="display:none;">
+                    <div id="snowmarker1"></div>
+                    <div id="snowmarker2"></div>
+                    <div id="snowmarker3"></div>
+                    <div id="snowmarker4"></div>
+                    <div id="snowmarker5"></div>
+                    <div id="snowmarker6"></div>
+                </div>
+
+                <div id="tigermarker" style="display:none;">
+                    <div id="tigermarker1"></div>
+                    <div id="tigermarker2"></div>
+                    <div id="tigermarker3"></div>
+                    <div id="tigermarker4"></div>
+                    <div id="tigermarker5"></div>
+                    <div id="tigermarker6"></div>
+                    <div id="tigermarker7"></div>
+                </div>
+
+                <div id="lemurmarker" style="display:none;"></div>
+                
+                <div id="pandamarker" style="display: none;">
+                    <div id="pandamarker1"></div>
+                    <div id="pandamarker2"></div>
+                    <div id="pandamarker3"></div>
+                </div>
+
+                
+                <div id="orangutanmarker" style="display:none;">
+                    <div id="orangutanmarker1"></div>
+                    <div id="orangutanmarker2"></div>
+                </div>
+
+                <div id="jaguarmarker" style="display:none;">
+                    <div id="jaguarmarker1"></div>
+                    <div id="jaguarmarker2"></div>
+                    <div id="jaguarmarker3"></div>
+                    <div id="jaguarmarker4"></div>
+                    <div id="jaguarmarker5"></div>
+                    <div id="jaguarmarker6"></div>
+                    <div id="jaguarmarker7"></div>
+                    <div id="jaguarmarker8"></div>
+                    <div id="jaguarmarker9"></div>
+                    <div id="jaguarmarker10"></div>
+                    <div id="jaguarmarker11"></div>
+                    <div id="jaguarmarker12"></div>
+                    <div id="jaguarmarker13"></div>
+                    <div id="jaguarmarker14"></div>
+                    <div id="jaguarmarker15"></div>
+                    <div id="jaguarmarker16"></div>
+                    <div id="jaguarmarker17"></div>
+                </div>
+   
+        </div>
+        <div class="blackbar"></div>
+        <div class="greenbar"></div>
+        <div class="whitebox"></div>
+        <div class="speciesbar"></div>
+
+        <div class="acontainer">
+            <div class="a1" type="button" onclick="toggle()">
+                <h3>Snow Leopard</h3>
+                <div class="imagebox">
+                    <img src="/portfolio/snowleopard.jpg" width="40" height="40">    
+                </div>
+            </div>
+
+            <div class="a2" type="button" onclick="toggle1()">
+                <h3>Tiger</h3>
+                <div class="imagebox2">
+                    <img src="/portfolio/tigerface.jpg" width="40" height="40">
+                </div>
+            </div>
+
+            <div class="a3" type="button" onclick="toggle2()">
+                <h3>Panda</h3>
+                <div class="imagebox3">
+                    <img src="/portfolio/panda.jpg" width="40" height="40">
+                </div>
+            </div>
+
+            <div class="a4" type="button" onclick="toggle3()">
+                <h3>Orangutan</h3>
+                <div class="imagebox4">
+                    <img src="/portfolio/orangutan.jpg" width="40" height="40">
+                </div>
+            </div>
+
+            <div class="a5" type="button" onclick="toggle4()">
+                <h3>Lemur</h3>
+                <div class="imagebox5">
+                    <img src="/portfolio/lemur.jpg" width="40" height="40">
+                </div>
+            </div>
+
+            <div class="a6" type="button"onclick="toggle5()">
+                <h3>Jaguar</h3>
+                <div class="imagebox6">
+                    <img src="/portfolio/jaguar.jpg" width="40" height="40">
+                </div>
+            </div>
+        </div>
+
+        <div class="iconbar">
+            <div class="micon"><i class="fas fa-hippo"></i></div>
+            <div class="bicon"><i class="fas fa-kiwi-bird"></i></div>
+            <div class="aicon"><i class="fas fa-frog"></i></div>
+            <div class="ricon"><i class="fas fa-dragon"></i></div>
+            <div class="ficon"><i class="fas fa-fish"></i></div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    
+</body>
+</html>

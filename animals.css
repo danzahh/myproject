@@ -1,0 +1,1175 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mammals {
+    height: 700px;
+    width: 100%;
+    background: black url("mammals.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+  
+}
+
+
+
+.login {
+    background: rgb(151, 238, 11);
+    width: 100%;
+    height: 4%;
+    opacity: 0.6;
+    position: fixed;
+    z-index: 80;
+}
+
+.loginbar ul {
+    position: fixed;
+    color: white;
+    top: 0px;
+    margin-top: 5px;
+    padding-top: 0px;
+    margin-right: 25px;
+    list-style: none;
+    right: 0px;
+    z-index: 80;
+}
+
+.loginbar ul a {
+    color: white;
+    text-decoration: none;
+    z-index: 80;
+}
+
+.menubar {
+    position: fixed;
+    text-align: center;
+    display: inline-flex;
+    margin-top: 2%;
+    margin-left: 5%;
+    z-index: 10; 
+}
+
+.menubar img {
+    position: fixed;
+    margin-top: -8px;
+    left: 0px;
+}
+
+.menubar ul li a::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(151, 238, 11);
+    height: 3px;
+    width: 0px;
+    margin-left: -50px;
+    bottom: 22px;
+    transition: 0.3s;  
+}
+
+.menubar ul li a:hover::after{
+    width: 60px;
+}
+
+.menubar h1 {
+    color: white;
+}
+
+.menubar ul {
+    display: inline-flex;
+    color: white;
+    list-style: none; 
+    margin-left: 94%;
+}
+
+.menubar ul li {
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.sub-menutext {
+    display: none;
+}
+
+.menubar ul li:hover .sub-menutext {
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: -40px;  
+}
+.sub-menutext ul li a:hover {
+    color: rgb(151, 238, 11);
+}
+
+.menubar ul li:hover .sub-menutext ul {
+    display: block;
+    position: absolute;
+    z-index: 35;
+    margin-top: 20px;
+}
+
+.menubar ul li:hover .sub-menutext ul li {
+    background: transparent;
+    width: 80px;
+    border-bottom: solid white 1px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: -15px;
+    margin-top: 10px;
+    z-index: 35;
+   
+}
+
+.menubar i {
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+.sub-menu1 {
+    display: none;
+    z-index: 1;
+}
+
+.sub-menu {
+    position: absolute;
+    display: none;
+    z-index: 30;
+    width: 150px;
+    height: 200px;
+    background: black;
+}
+
+.menubar ul li:hover .sub-menu {
+   
+    position: absolute;
+    background: black;
+    opacity: 0.5;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: -50px;
+}
+
+.menubar ul li:hover .sub-menu {
+    display: block;
+    z-index: 1;
+}
+
+.sub-menutext1 {
+    display: none;
+}
+
+.menubar ul li:hover .sub-menutext1 {
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: -10px;
+}
+
+.menubar ul li:hover .sub-menutext1 ul {
+    display: block;
+    position: absolute;
+    z-index: 35;
+    margin-top: 20px;
+}
+
+.menubar ul li:hover .sub-menutext1 ul li {
+    background: transparent;
+    width: 130px;
+    border-bottom: solid white 1px;
+    text-align: center;
+    margin-left: -60px;
+    z-index: 35;
+    margin-top: 8px;
+    padding-bottom: 5px;
+
+}
+
+.menubar ul li:hover .sub-menutext ul li:last-child {
+    border-bottom: none;
+}
+
+.sub-menu1 {
+    display: none;
+    z-index: 1;
+}
+
+.sub-menu1 {
+    position: absolute;
+    display: none;
+    z-index: 30;
+    width: 200px;
+    height: 230px;
+    background: black;
+}
+
+.menubar ul li:hover .sub-menu1 {
+   
+    position: absolute;
+    background: black;
+    opacity: 0.5;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: -63px;
+}
+
+.menubar ul li:hover .sub-menu1 {
+    display: block;
+    z-index: 1;
+}
+
+.menubar ul li:hover .sub-menutext1 ul li:last-child {
+    border-bottom: none;
+}
+
+.sub-menutext1 ul li a:hover {
+    color: rgb(151, 238, 11);
+}
+
+.sub-menutext ul li a::after {
+    background:none;
+}
+
+.sub-menutext1 ul li a::after {   
+    background:none;
+}
+
+.underline {
+    height: 2%;
+    width: 80%;
+    border-top: solid rgba(255, 255, 255, 0.473) 1px;
+    bottom: 80px;
+    position: absolute;
+    margin-left: 70px;
+    z-index: 20;
+}
+
+.underline ul {
+    display: inline-flex;
+    list-style: none;
+    margin-left: 10px;
+    text-align: center;
+    z-index: 20;
+}
+
+.underline ul a{
+    color: rgba(255, 255, 255, 0.473);
+    text-decoration: none;
+}
+
+.underline ul li {
+    margin-left: 80px;
+    padding: 5px;
+    border: solid rgba(255, 255, 255, 0.473) 2px;
+    border-radius: 5px;
+    width: 80px;
+    z-index: 20;
+}
+
+.whiteline {
+    height: 80%;
+    width: 90%;
+    border: solid white 3px;
+    border-radius: 10px;
+    margin-top: 8%;
+    margin-left: 4.5%;
+}
+
+.rightarrow {
+    position: absolute;
+    color: rgb(95, 95, 95);
+    font-size: 70px;
+    right: 10px;
+    margin-top: 230px;
+    z-index: 80;
+}
+
+.leftarrow {
+    position: absolute;
+    color: rgb(95, 95, 95);
+    font-size: 70px;
+    left: 10px;
+    margin-top: 230px;
+    z-index: 80;
+}
+
+.whiteline1 {
+    height: 80%;
+    width: 90%;
+    border: solid rgb(133, 255, 20) 3px;
+    border-radius: 10px;
+    margin-top: 8%;
+    margin-left: 4.5%;
+}
+
+.whiteline2 {
+    height: 80%;
+    width: 90%;
+    border: solid rgb(102, 103, 206) 3px;
+    border-radius: 10px;
+    margin-top: 8%;
+    margin-left: 4.5%;
+}
+
+.whiteline3 {
+    height: 80%;
+    width: 90%;
+    border: solid rgb(68, 170, 48) 3px;
+    border-radius: 10px;
+    margin-top: 8%;
+    margin-left: 4.5%;
+}
+
+.whiteline4 {
+    height: 80%;
+    width: 90%;
+    border: solid rgb(218, 73, 37) 3px;
+    border-radius: 10px;
+    margin-top: 8%;
+    margin-left: 4.5%;
+}
+
+.reptiles {
+    height: 700px;
+    width: 100%;
+    background: black url("liz.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+  
+}
+
+.birds {
+    height: 700px;
+    width: 100%;
+    background: black url("birdbeak.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+  
+}
+
+.header {
+    color: white;
+    z-index: 1;
+    font-style: italic;
+    margin-top: 90px;
+    right: 600px;
+    font-size: 20px;
+    position: absolute;
+}
+
+.mheader {
+    color: white;
+    z-index: 1;
+    font-style: italic;
+    font-size: 20px;
+    right: 600px;
+    margin-top: 90px;
+    position: absolute;
+}
+
+.bheader {
+    color: white;
+    z-index: 1;
+    font-style: italic;
+    font-size: 20px;
+    right: 600px;
+    margin-top: 90px;
+    position: absolute;
+}
+
+.aheader {
+    color: white;
+    z-index: 1;
+    font-style: italic;
+    font-size: 20px;
+    right: 600px;
+    margin-top: 90px;
+    position: absolute;
+}
+
+.fheader {
+    color: white;
+    z-index: 1;
+    font-style: italic;
+    font-size: 20px;
+    right: 600px;
+    margin-top: 90px;
+    position: absolute;
+}
+
+.amphibians {
+    height: 700px;
+    width: 100%;
+    background: black url("frog.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+}
+
+.fish {
+    height: 700px;
+    width: 100%;
+    background: black url("fish.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+}
+
+
+
+.color-overlay {
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.7;
+    position: absolute;
+
+}
+
+.services-cell {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+.services-cell img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.services-cell1 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.services-cell2 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.services-cell3 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.services-cell4 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.services-cell5 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.services-cell6 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.services-cell1 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 110px;
+    margin-top: 160px;
+
+}
+
+.services-cell2 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 300px;
+
+}
+
+.services-cell3 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 190px;
+    margin-top: 20px;
+
+}
+
+.services-cell4 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 350px;
+    margin-top: 300px;
+
+}
+
+.services-cell5 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 270px;
+    margin-top: 160px;
+
+}
+
+.services-cell6 {
+
+   
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 510px;
+    margin-top: 300px;
+
+}
+
+
+.services-cell7 {
+
+   
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    left: 80px;
+    top: 70px;
+}
+
+.services-cell8 {
+
+   
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    top: 70px;
+    left: 240px;
+}
+
+.services-cell9 {
+
+   
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    left: 160px;
+    top: 210px;
+
+}
+
+.services-cell10 {
+
+
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    right: 70px;
+    margin-top: 100px;
+}
+
+.services-cell11 {
+
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    right: 230px;
+    margin-top: 100px;
+}
+
+.services-cell12 {
+
+  
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    right: 150px;
+    margin-top: 240px;
+
+}
+
+.services-cell7 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.services-cell8 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.services-cell9 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.services-cell10 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.services-cell11 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.services-cell12 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.services-cell13 {
+
+  
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    right: 80px;
+    bottom: 150px;
+
+}
+
+.services-cell14 {
+
+  
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    right: 240px;
+    bottom: 150px;
+}
+
+.services-cell15 {
+
+  
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    right: 400px;
+    bottom: 150px;
+
+}
+
+.services-cell16 {
+
+  
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    right: 160px;
+    bottom: 290px;
+
+}
+
+.services-cell17 {
+
+  
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    right: 320px;
+    bottom: 290px;
+
+}
+
+.services-cell18 {
+
+  
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    right: 560px;
+    bottom: 150px;
+
+}
+
+.services-cell19 {
+
+  
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    right: 80px;
+    top: 90px;
+
+}
+
+
+.services-cell13 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.services-cell14 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.services-cell15 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.services-cell16 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.services-cell17 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.services-cell18 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.services-cell19 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+ .frog1 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 70px;
+
+}
+
+.frog2 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 230px;
+    margin-top: 70px;
+
+}
+
+.frog3 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 210px;
+
+}
+
+.frog4 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 350px;
+
+}
+
+.frog5 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 230px;
+    margin-top: 350px;
+
+}
+
+.frog6 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 310px;
+    margin-top: 210px;
+
+}
+
+
+.frog1 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.frog2 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.frog3 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.frog4 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.frog5 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.frog6 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.fish1 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 70px;
+
+}
+
+.fish2 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 230px;
+    margin-top: 70px;
+
+}
+
+.fish3 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 210px;
+
+}
+
+.fish4 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 350px;
+
+}
+
+.fish5 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 230px;
+    margin-top: 350px;
+
+}
+
+.fish6 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 310px;
+    margin-top: 210px;
+
+}
+
+
+
+.fish7 {
+    flex: 0 1 250px;
+    max-width: 150px;
+    height: 175px;
+    margin: 2px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    cursor: pointer;
+    margin-left: 390px;
+    margin-top: 70px;
+
+}
+
+
+.fish1 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.fish2 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.fish3 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.fish4 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.fish5 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.fish6 img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.fish7 img {
+    object-fit: cover;
+    object-position: center;
+}
